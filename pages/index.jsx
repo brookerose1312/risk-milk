@@ -3,6 +3,7 @@ import React, {useState} from "react"
 export default function Home() {
 
   const [what, showWhat] = useState(false);
+  let _90vh = Math.round(window.innerHeight / 100)*90;
 
   const handleClick = () => {
     var video = document.getElementById("whatVideo");
@@ -22,7 +23,7 @@ export default function Home() {
       <h1 className="text-center mt-3">Risk Milk</h1>
       <div className="d-flex justify-content-center">
         <div className="position-relative ">
-          <video id="whatVideo" height={1000}>
+          <video id="whatVideo" height={_90vh}>
             <source src="milk-drop.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
