@@ -14,7 +14,9 @@ export default function Home() {
     }, 1000)
     setTimeout(() => {
       showWhat(false);
-      video.load();
+      if (video.ended) {
+        video.load();
+      }
     }, 10000)
   }
   return (
