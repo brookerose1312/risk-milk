@@ -21,7 +21,7 @@ export default function Home() {
   }
   return (
     <div onClick={handleClick} id="container" className="container" style={{height: "100%", minHeight: "100vh"}}>
-      <h1 className="text-center mt-3">Risk Milk</h1>
+      <h1 className="text-center mt-3">Risk Milk{/* SKIM 👉 🤭 */}</h1>
       <div className="d-flex justify-content-center">
         <div className="position-relative ">
           <video id="whatVideo" style={{
