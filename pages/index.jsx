@@ -7,7 +7,7 @@ export default function Home() {
       <div dangerouslySetInnerHTML={{__html: `<!--SKIM 👉 🤭 -->`}}>
       </div>
       <div className="d-flex justify-content-center">
-        <Image src="/riskmilk.png" height="90vh" />
+        <Image src="/riskmilk.png" layout="fill" />
         <audio id="riskmilkAudio" autoPlay>
           <source src="shootingstars.mp3" type="audio/mpeg" />
         </audio>
