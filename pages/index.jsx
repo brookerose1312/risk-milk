@@ -6,7 +6,6 @@ export default function Home() {
     <div id="container" className="container" style={{height: "100%", minHeight: "100vh"}}>
       <div dangerouslySetInnerHTML={{__html: `<!--SKIM 👉 🤭 -->`}}>
       </div>
-      <h1 className="text-center mt-3" >Risk Milk</h1>
       <div className="d-flex justify-content-center">
         <div className="position-relative ">
           <Image src="riskmilk.png" height="90vh" />
