@@ -8,9 +8,7 @@ export default function Home() {
       </div>
       <h1 className="text-center mt-3" ></h1>
       <div className="d-flex justify-content-center">
-        <div className="position-relative ">
-          <Image src="riskmilk.png" height="90vh" />
-        </div>
+        <Image src="riskmilk.png" height="90vh" />
         <audio id="riskmilkAudio" autoPlay>
           <source src="shootingstars.mp3" type="audio/mpeg" />
         </audio>
