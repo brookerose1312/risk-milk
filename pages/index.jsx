@@ -1,4 +1,5 @@
-import React, {useState} from "react"
+import React from "react"
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <h1 className="text-center mt-3" >Risk Milk</h1>
       <div className="d-flex justify-content-center">
         <div className="position-relative ">
-          <img src="riskmilk.png" minHeight="90vh" />
+          <Image src="riskmilk.png" height="90vh" />
         </div>
         <audio id="riskmilkAudio" autoPlay>
           <source src="shootingstars.mp3" type="audio/mpeg" />
